@@ -18,9 +18,11 @@ Additionally, in this work multiple irregular masks were generated to train the 
 ### Pre-trained weights
 
 Weights for non-tumor brain tissue inpainting are available at:
-* [VGG-16 weights tranformed to grayscale]()
-* [Phase 1]() - training (Learning rate 0.0002)
-* [Phase 2]() - training (Learning rate 0.00005, batch normalization disabled in encoder)
+* [VGG-16 weights tranformed to grayscale](https://drive.google.com/file/d/1Xi-cKUia9PJeJTMf7oGM8DsyzTKnNKfU/view?usp=sharing)
+* [Phase 1](https://drive.google.com/drive/folders/1cIbpfStEtIEPl4JemmXDjwFrdJL4_tDB?usp=sharing) - training (Learning rate 0.0002)
+* [Phase 2](https://drive.google.com/drive/folders/1mGUMMuSmI3OMSupiWsm5he7r7eVN-561?usp=sharing) - training (Learning rate 0.00005, batch normalization disabled in encoder)
+
+Run `python predict.py` to obtain the prediction. More information about script arguments running `python predict.py -h`
 
 ### Architecture and loss function
 
